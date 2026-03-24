@@ -183,7 +183,6 @@ export default function Navbar() {
           <div className="mt-4 flex flex-col gap-3 md:hidden text-sm animate-fadeIn">
 
             <Link to="/" onClick={() => setOpen(false)}>Home</Link>
-            <Link to="/about" onClick={() => setOpen(false)}>About</Link>
 
             <div>
               <p className="font-semibold">Mother-Baby Friendly</p>
