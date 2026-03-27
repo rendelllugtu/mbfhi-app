@@ -84,13 +84,6 @@ export default function Navbar() {
                   >
                     Requirements
                   </Link>
-                  <Link
-                    to="/about"
-                    onClick={() => setDropdown(null)}
-                    className="block px-4 py-2 hover:bg-gray-100"
-                  >
-                    About
-                  </Link>
                 </div>
               )}
             </div>
@@ -183,7 +176,6 @@ export default function Navbar() {
           <div className="mt-4 flex flex-col gap-3 md:hidden text-sm animate-fadeIn">
 
             <Link to="/" onClick={() => setOpen(false)}>Home</Link>
-            <Link to="/about" onClick={() => setOpen(false)}>About</Link>
 
             <div>
               <p className="font-semibold">Mother-Baby Friendly</p>
